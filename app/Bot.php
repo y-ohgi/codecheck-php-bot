@@ -49,17 +49,6 @@ class Bot
     }
 }
 
-$data = [
-    "command" => "color",
-    "data" => "red",
-];
-$data = [
-    "command" => "daaaaaaaaaaaaaaaaaa",
-    "data" => "dl",
-];
-$bot = new Bot($data);
-$bot->generateHash();
-
 
 /**
  * Return scientific notation if after 'e+' was more than 20.
